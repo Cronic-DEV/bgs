@@ -147,10 +147,3 @@ local Button = Tab:CreateButton({
 loadstring(game:HttpGet(('https://pastebin.com/raw/Wzh01WMA')))()
    end,
 })
-
-local Button = Tab:CreateButton({
-   Name = "Auto Bubble",
-   Callback = function()
-loadstring(game:HttpGet(('https://pastebin.com/raw/Mf1qSb3z')))()
-   end,
-})

@@ -1,6 +1,6 @@
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
 local Player = game.Players.LocalPlayer
-local Window = OrionLib:MakeWindow({Name = "XRQA - BGM Login", HidePremium = false, SaveConfig = true, IntroEnabled = false})
+local Window = OrionLib:MakeWindow({Name = "7MK7 - BGM Login", HidePremium = false, SaveConfig = true, IntroEnabled = false})
 
 OrionLib:MakeNotification({
 	Name = "Logged in!",
@@ -13,7 +13,7 @@ _G.Key = "BUBBLE"
 _G.KeyInput = "string"
 
 function MakeScriptHub()
-    local Window = OrionLib:MakeWindow({Name = "XRQA - BUBBLE GUM MAYHEM", HidePremium = false, SaveConfig = true, IntroEnabled = true, IntroText = "XRQA - BUBBLE GUM MAYHEM"})
+    local Window = OrionLib:MakeWindow({Name = "7MK7 - BUBBLE GUM MAYHEM", HidePremium = false, SaveConfig = true, IntroEnabled = true, IntroText = "7MK7 - BUBBLE GUM MAYHEM"})
     local Tab = Window:MakeTab({
         Name = "TELEPORTS",
         Icon = "rbxassetid://4483345998",
@@ -167,7 +167,7 @@ game:GetService("ReplicatedStorage"):WaitForChild("DefaultChatSystemChatEvents")
         PremiumOnly = false
     })
     
-    Tab:AddParagraph("Script Credits","This Script Was Made By: xrqa ( Discord: xrqa) | Hazard ( Discord: Preflx)")
+    Tab:AddParagraph("Script Credits","This Script Was Made By: 7MK7 ( Discord: 7MK7) | Hazard ( Discord: Preflx)")
 end
 
 function CorrectKeyNotification()

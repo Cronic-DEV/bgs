@@ -134,7 +134,6 @@ loadstring(game:HttpGet(('https://pastebin.com/raw/UVSKPZ0v')))()
 loadstring(game:HttpGet(('https://pastebin.com/raw/Wzh01WMA')))()
           end    
     })
-    
                 Tab:AddButton({
         Name = "Auto Bubble",
         Callback = function()
@@ -143,6 +142,25 @@ loadstring(game:HttpGet(('https://pastebin.com/raw/c9vduTGe')))()
           end    
     })
     
+        local Tab = Window:MakeTab({
+        Name = "Auto Scam",
+        Icon = "rbxassetid://4483345998",
+        PremiumOnly = false
+    })
+    
+                    Tab:AddButton({
+        Name = "Scam Message",
+        Callback = function()
+                  print("Successfully Executed, Enjoy!")
+local args = {
+    [1] = "buying secrets for robux ( i have 143k robux ) most ill do for 1 secret is 26k im not going first as ive already been scammed today.",
+    [2] = "All"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("DefaultChatSystemChatEvents"):WaitForChild("SayMessageRequest"):FireServer(unpack(args))
+          end    
+    })
+     
     local Tab = Window:MakeTab({
         Name = "Script Credits",
         Icon = "rbxassetid://4483345998",
